@@ -1,0 +1,24 @@
+{
+  "name": "echoes-of-space",
+  "version": "1.0.0",
+  "description": "Echoes of Space - Digital Space Museum for NASA Discarded Equipment on the Moon and Mars",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "install:all": "node scripts/install-all.js",
+    "seed": "node scripts/seed.js",
+    "start": "node scripts/start.js",
+    "dev": "node scripts/start.js",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "node scripts/run-server.js"
+  },
+  "keywords": [
+    "nasa",
+    "space-apps",
+    "moon",
+    "mars",
+    "space-archaeology"
+  ],
+  "author": "Echoes of Space Team",
+  "license": "MIT"
+}

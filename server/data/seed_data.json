@@ -1,0 +1,983 @@
+{
+  "missions": [
+    {
+      "id": "apollo-11",
+      "name": "Apollo 11",
+      "type": "Crewed Lunar Landing",
+      "launch_date": "1969-07-16",
+      "landing_date": "1969-07-20",
+      "objective": "Perform a crewed lunar landing and safely return the astronauts to Earth.",
+      "outcome": "Successful. Humanity's first walk on another celestial body; returned 21.5 kg of lunar samples.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-11.html"
+    },
+    {
+      "id": "apollo-12",
+      "name": "Apollo 12",
+      "type": "Crewed Lunar Landing",
+      "launch_date": "1969-11-14",
+      "landing_date": "1969-11-19",
+      "objective": "Perform precision pinpoint landing and retrieve parts from the Surveyor 3 probe.",
+      "outcome": "Successful. Landed within 183 meters of Surveyor 3; returned 34.3 kg of samples and Surveyor parts.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-12.html"
+    },
+    {
+      "id": "apollo-14",
+      "name": "Apollo 14",
+      "type": "Crewed Lunar Landing",
+      "launch_date": "1971-01-31",
+      "landing_date": "1971-02-05",
+      "objective": "Explore Fra Mauro formation and deploy scientific instruments including laser retroreflector.",
+      "outcome": "Successful. Collected 42.8 kg of lunar rocks; deployed LRRR which remains operational.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-14.html"
+    },
+    {
+      "id": "apollo-15",
+      "name": "Apollo 15",
+      "type": "Crewed Lunar Landing & Exploration",
+      "launch_date": "1971-07-26",
+      "landing_date": "1971-07-30",
+      "objective": "First J-mission: intensive lunar science, debut the Lunar Roving Vehicle (LRV).",
+      "outcome": "Successful. Traveled 27.9 km on lunar rover; deployed largest retroreflector array.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-15.html"
+    },
+    {
+      "id": "apollo-16",
+      "name": "Apollo 16",
+      "type": "Crewed Lunar Landing & Exploration",
+      "launch_date": "1972-04-16",
+      "landing_date": "1972-04-21",
+      "objective": "Explore the lunar highlands at Descartes and collect ancient crust samples.",
+      "outcome": "Successful. Rover drove 26.7 km; proved highlands are impact-formed rather than volcanic.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-16.html"
+    },
+    {
+      "id": "apollo-17",
+      "name": "Apollo 17",
+      "type": "Crewed Lunar Landing & Exploration",
+      "launch_date": "1972-12-07",
+      "landing_date": "1972-12-11",
+      "objective": "Final Apollo lunar mission, featuring scientist-astronaut Harrison Schmitt at Taurus-Littrow.",
+      "outcome": "Successful. Rover drove 35.7 km; collected 110.5 kg of samples including famous orange volcanic soil.",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-17.html"
+    },
+    {
+      "id": "surveyor-3",
+      "name": "Surveyor 3",
+      "type": "Robotic Lunar Lander",
+      "launch_date": "1967-04-17",
+      "landing_date": "1967-04-20",
+      "objective": "Robotic soft-landing and surface soil mechanics trenching ahead of Apollo.",
+      "outcome": "Successful. Dug trenches with its scoop arm and transmitted 6,315 television pictures.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+    },
+    {
+      "id": "viking-1",
+      "name": "Viking 1",
+      "type": "Mars Orbiter and Lander",
+      "launch_date": "1975-08-20",
+      "landing_date": "1976-07-20",
+      "objective": "First successful US landing on Mars; photograph surface and search for biosignatures.",
+      "outcome": "Successful. Operated on Mars for 2,245 sols (over 6 Earth years) until November 11, 1982.",
+      "source_url": "https://mars.nasa.gov/missions/viking-1/"
+    },
+    {
+      "id": "viking-2",
+      "name": "Viking 2",
+      "type": "Mars Orbiter and Lander",
+      "launch_date": "1975-09-09",
+      "landing_date": "1976-09-03",
+      "objective": "Explore northern plains of Mars at Utopia Planitia for atmosphere and surface chemistry.",
+      "outcome": "Successful. Operated on Mars surface for 1,281 sols until April 11, 1980.",
+      "source_url": "https://mars.nasa.gov/missions/viking-2/"
+    },
+    {
+      "id": "mars-pathfinder",
+      "name": "Mars Pathfinder & Sojourner",
+      "type": "Mars Lander & Microrover",
+      "launch_date": "1996-12-04",
+      "landing_date": "1997-07-04",
+      "objective": "Demonstrate low-cost airbag landing system and deploy the first roving vehicle on Mars.",
+      "outcome": "Successful. Sojourner operated for 83 sols, analyzing volcanic rocks and outliving design life 12x.",
+      "source_url": "https://mars.nasa.gov/missions/pathfinder/"
+    },
+    {
+      "id": "mer-a-spirit",
+      "name": "Mars Exploration Rover A (Spirit)",
+      "type": "Mars Robotic Rover",
+      "launch_date": "2003-06-10",
+      "landing_date": "2004-01-04",
+      "objective": "Search for geological evidence of past liquid water inside Gusev Crater.",
+      "outcome": "Successful. Designed for 90 days; operated over 6 years (7.73 km), discovered silica hydrothermal deposits.",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/"
+    },
+    {
+      "id": "mer-b-opportunity",
+      "name": "Mars Exploration Rover B (Opportunity)",
+      "type": "Mars Robotic Rover",
+      "launch_date": "2003-07-07",
+      "landing_date": "2004-01-25",
+      "objective": "Investigate hematite-rich terrain at Meridiani Planum for evidence of past water.",
+      "outcome": "Legendary success. Operated for 14.5 years, traveling 45.16 km until a global dust storm in 2018.",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/"
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix Mars Lander",
+      "type": "Mars Arctic Lander",
+      "launch_date": "2007-08-04",
+      "landing_date": "2008-05-25",
+      "objective": "Land in Martian arctic plains to sample subsurface water ice and soil chemistry.",
+      "outcome": "Successful. Confirmed water ice right under the topsoil and detected perchlorate salts.",
+      "source_url": "https://mars.nasa.gov/missions/phoenix/"
+    },
+    {
+      "id": "insight",
+      "name": "InSight",
+      "type": "Mars Geophysical Lander",
+      "launch_date": "2018-05-05",
+      "landing_date": "2018-11-26",
+      "objective": "Investigate deep interior of Mars: crust, mantle, core, and seismic activity.",
+      "outcome": "Successful. Detected over 1,319 marsquakes and mapped Mars' liquid core before mission ended Dec 2022.",
+      "source_url": "https://mars.nasa.gov/insight/"
+    },
+    {
+      "id": "luna-9",
+      "name": "Luna 9",
+      "type": "Robotic Lunar Lander",
+      "launch_date": "1966-01-31",
+      "landing_date": "1966-02-03",
+      "objective": "First spacecraft to achieve a survivable soft-landing on another celestial body.",
+      "outcome": "Historical milestone. Transmitted first close-up circular television panorama of Moon ground.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-006A"
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj-apollo11-lm",
+      "name": "Apollo 11 Lunar Module Descent Stage ('Eagle')",
+      "slug": "apollo-11-descent-stage",
+      "celestial_body": "Moon",
+      "category": "Lander Hardware",
+      "mission_id": "apollo-11",
+      "year_left": 1969,
+      "original_purpose": "Braking engine and landing launchpad that safely lowered Neil Armstrong and Buzz Aldrin to Tranquility Base.",
+      "reason_left": "Served as the launch platform for the Ascent Stage; lifting its heavy legs and rocket engine into lunar orbit was impossible with Apollo fuel limits.",
+      "significance": "The cradle of humanity's first extraterrestrial touchdown, still bearing the historic commemorative peace plaque signed by the crew and president.",
+      "current_status": "Left behind",
+      "latitude": 0.67408,
+      "longitude": 23.47297,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS11-40-5922/AS11-40-5922~orig.jpg",
+      "image_credit": "NASA / Neil Armstrong (AS11-40-5922)",
+      "summary": "The lower half of the Eagle lunar lander stands at Tranquility Base. Its four spider-like legs, golden thermal foils, and descent engine remained behind when Armstrong and Aldrin launched to rejoin Columbia.",
+      "kid_summary": "The bottom half of the Apollo 11 spaceship! It was like a space table with four legs that helped Neil Armstrong and Buzz Aldrin land softly. When they zoomed home, they left the table behind!",
+      "fun_fact": "On one leg is a plaque that says: 'Here men from the planet Earth first set foot upon the Moon. July 1969 A.D. We came in peace for all mankind.'"
+    },
+    {
+      "id": "obj-apollo11-lrrr",
+      "name": "Apollo 11 Lunar Laser Ranging Retroreflector",
+      "slug": "apollo-11-lrrr",
+      "celestial_body": "Moon",
+      "category": "Scientific Instrument",
+      "mission_id": "apollo-11",
+      "year_left": 1969,
+      "original_purpose": "Array of 100 fused silica quartz corner-cube prisms that bounce laser pulses from Earth telescopes back to their origin.",
+      "reason_left": "Designed intentionally as a permanent passive lunar station requiring zero electrical power.",
+      "significance": "Proved the Moon is spiraling away from Earth at 3.8 cm per year, tests Einstein's general relativity, and remains operational 55+ years later.",
+      "current_status": "Still in use",
+      "latitude": 0.67337,
+      "longitude": 23.47345,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS11-40-5952/AS11-40-5952~orig.jpg",
+      "image_credit": "NASA / Buzz Aldrin (AS11-40-5952)",
+      "summary": "Deployed roughly 15 meters south-southwest of the Eagle lander, this array of 100 optical corner-cube prisms continues to reflect laser light fired by observatories on Earth today.",
+      "kid_summary": "A suitcase full of special mirrors! Scientists on Earth shoot laser beams at it, and the mirrors bounce the lasers right back. It still works today without batteries!",
+      "fun_fact": "Because it uses pure optical physics with no electronics, this tiny mirror box has been working continuously without a single broken part since 1969!"
+    },
+    {
+      "id": "obj-apollo14-lrrr",
+      "name": "Apollo 14 Lunar Laser Ranging Retroreflector",
+      "slug": "apollo-14-lrrr",
+      "celestial_body": "Moon",
+      "category": "Scientific Instrument",
+      "mission_id": "apollo-14",
+      "year_left": 1971,
+      "original_purpose": "Second corner-cube retroreflector array placed on the Moon to enable tri-station ranging measurements of lunar librations.",
+      "reason_left": "Permanent passive scientific instrument placed on Fra Mauro plains.",
+      "significance": "Helped scientists calculate the precise wobble and fluid core boundary of the Moon.",
+      "current_status": "Still in use",
+      "latitude": -3.64421,
+      "longitude": -17.47136,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS14-67-9385/AS14-67-9385~orig.jpg",
+      "image_credit": "NASA / Alan Shepard & Edgar Mitchell (AS14-67-9385)",
+      "summary": "Installed on the rugged Fra Mauro highlands, this 100-prism retroreflector works in tandem with Apollo 11 and 15 to form a multi-point lunar tracking geometry.",
+      "kid_summary": "Another super mirror station on the Moon! When combined with Apollo 11's mirror, it helps scientists see how the Moon wobbles like a slow spinning top.",
+      "fun_fact": "Astronaut Alan Shepard also hit two golf balls nearby with a makeshift 6-iron club before departing!"
+    },
+    {
+      "id": "obj-apollo15-lrv",
+      "name": "Apollo 15 Lunar Roving Vehicle ('Moon Buggy 1')",
+      "slug": "apollo-15-lrv",
+      "celestial_body": "Moon",
+      "category": "Rover / Vehicle",
+      "mission_id": "apollo-15",
+      "year_left": 1971,
+      "original_purpose": "Battery-powered electric rover with mesh wheels allowing astronauts David Scott and James Irwin to travel kilometers across Hadley Rille.",
+      "reason_left": "Weighed 210 kg on Earth and had exhausted its primary silver-zinc batteries; no capacity existed to return it.",
+      "significance": "First vehicle driven by humans on another world, expanding the crew exploration radius from hundreds of meters to tens of kilometers.",
+      "current_status": "Left behind",
+      "latitude": 26.1322,
+      "longitude": 3.63386,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS15-88-11866/AS15-88-11866~orig.jpg",
+      "image_credit": "NASA / David Scott (AS15-88-11866)",
+      "summary": "Parked at Hadley-Apennine, LRV-1 rests on lunar dust with its high-gain antenna, color TV camera, and tool racks intact. Its TV camera broadcast the Apollo 15 liftoff.",
+      "kid_summary": "The very first electric car driven in space! It had seats like lawn chairs, tires made of piano-wire mesh, and helped astronauts drive up steep mountain hills.",
+      "fun_fact": "Its tires weren't made of rubber—they were woven out of zinc-coated steel piano wire with titanium chevrons so they wouldn't pop on sharp moon rocks!"
+    },
+    {
+      "id": "obj-apollo15-lrrr",
+      "name": "Apollo 15 Lunar Laser Ranging Retroreflector",
+      "slug": "apollo-15-lrrr",
+      "celestial_body": "Moon",
+      "category": "Scientific Instrument",
+      "mission_id": "apollo-15",
+      "year_left": 1971,
+      "original_purpose": "Large 300-cube retroreflector array providing three times the signal return of Apollo 11.",
+      "reason_left": "Permanent passive station for high-precision laser geodesy.",
+      "significance": "Produces approximately 80% of all lunar laser ranging data gathered over the last 50 years.",
+      "current_status": "Still in use",
+      "latitude": 26.1333,
+      "longitude": 3.6283,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS15-85-11460/AS15-85-11460~orig.jpg",
+      "image_credit": "NASA / James Irwin (AS15-85-11460)",
+      "summary": "The largest retroreflector on the Moon, containing 300 corner-cube reflectors in a hexagonal frame, positioned near Hadley Rille.",
+      "kid_summary": "The giant king of Moon mirrors! It has 300 mirrors grouped together and sends back the brightest laser flashes of all.",
+      "fun_fact": "Even though lasers shot from Earth start pencil-thin, by the time they hit the Moon they spread out to over a mile wide!"
+    },
+    {
+      "id": "obj-apollo16-lrv",
+      "name": "Apollo 16 Lunar Roving Vehicle ('Moon Buggy 2')",
+      "slug": "apollo-16-lrv",
+      "celestial_body": "Moon",
+      "category": "Rover / Vehicle",
+      "mission_id": "apollo-16",
+      "year_left": 1972,
+      "original_purpose": "Traverse the rugged Descartes Highlands, reaching craters up to 280 meters deep.",
+      "reason_left": "Expendable exploration vehicle; payload return limits prevented hauling vehicles home.",
+      "significance": "Astronaut John Young set the lunar rover speed record with this vehicle: approximately 18 km/h (11.2 mph) during a 'Grand Prix' test run.",
+      "current_status": "Left behind",
+      "latitude": -8.97301,
+      "longitude": 15.50019,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS16-107-17561/AS16-107-17561~orig.jpg",
+      "image_credit": "NASA / Charles Duke (AS16-107-17561)",
+      "summary": "Stationed in the Descartes Highlands. During the mission, a rear fender broke off, and the crew repaired it on the Moon using duct tape and plastic mission maps.",
+      "kid_summary": "A speedy space buggy that zoomed across the Descartes mountains! When its fender broke, the astronauts fixed it with real duct tape!",
+      "fun_fact": "John Young did moon-drifts with this rover on video, turning tight circles that kicked up 'rooster tails' of lunar dust!"
+    },
+    {
+      "id": "obj-apollo17-lrv",
+      "name": "Apollo 17 Lunar Roving Vehicle ('Moon Buggy 3')",
+      "slug": "apollo-17-lrv",
+      "celestial_body": "Moon",
+      "category": "Rover / Vehicle",
+      "mission_id": "apollo-17",
+      "year_left": 1972,
+      "original_purpose": "Transport Gene Cernan and Harrison Schmitt across Taurus-Littrow valley.",
+      "reason_left": "Parked approximately 100 meters east of the Challenger descent stage so its remotely-controlled camera could record liftoff.",
+      "significance": "The last human vehicle operated on the lunar surface. Its camera tracked the Challenger ascent stage rising into orbit.",
+      "current_status": "Left behind",
+      "latitude": 20.1908,
+      "longitude": 30.7717,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS17-147-22527/AS17-147-22527~orig.jpg",
+      "image_credit": "NASA / Harrison Schmitt (AS17-147-22527)",
+      "summary": "Parked purposefully at the VIP viewing site at Taurus-Littrow, where mission control in Houston aimed its camera upward to film the final Apollo liftoff.",
+      "kid_summary": "The last car ever driven on the Moon! Gene Cernan parked it facing the spaceship and filmed the astronauts taking off back to Earth.",
+      "fun_fact": "Before climbing up the ladder to leave, Gene Cernan wrote his daughter Tracy's initials, 'TDC', into the lunar dust!"
+    },
+    {
+      "id": "obj-surveyor-3",
+      "name": "Surveyor 3 Spacecraft",
+      "slug": "surveyor-3",
+      "celestial_body": "Moon",
+      "category": "Robotic Lander",
+      "mission_id": "surveyor-3",
+      "year_left": 1967,
+      "original_purpose": "Robotic lunar lander with a television camera and soil mechanics scoop.",
+      "reason_left": "Battery died in May 1967 after completing operations.",
+      "significance": "The only robotic probe on another world visited by later human explorers. Apollo 12 walked up to it in 1969, clipped off its camera, and brought it back to Earth for analysis.",
+      "current_status": "Left behind",
+      "latitude": -3.0163,
+      "longitude": -23.418,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS12-48-7133/AS12-48-7133~orig.jpg",
+      "image_credit": "NASA / Alan Bean (AS12-48-7133)",
+      "summary": "Resting inside a small crater in the Ocean of Storms. Apollo 12 landed 180 meters away and examined how 2.5 years of harsh lunar space environment weathered its aluminum.",
+      "kid_summary": "A robotic probe that got an unexpected visitor! Two years after it stopped working, human astronauts walked right up to it, said hello, and brought its camera back to Earth!",
+      "fun_fact": "Scientists on Earth analyzed the returned camera and found inactive Streptococcus bacteria inside, teaching NASA vital lessons about planetary protection and sterilizing spacecraft."
+    },
+    {
+      "id": "obj-apollo12-alsep",
+      "name": "Apollo 12 ALSEP Central Station",
+      "slug": "apollo-12-alsep",
+      "celestial_body": "Moon",
+      "category": "Scientific Station",
+      "mission_id": "apollo-12",
+      "year_left": 1969,
+      "original_purpose": "Nuclear-powered science package measuring moonquakes, solar wind, and lunar magnetic fields.",
+      "reason_left": "Deployed as an automated telemetry monitoring outpost powered by a SNAP-27 radioisotope thermoelectric generator.",
+      "significance": "Discovered that the Moon rings like a bell when spent rocket stages crash into it, revealing a fractured, dry crust.",
+      "current_status": "Mission ended",
+      "latitude": -3.0124,
+      "longitude": -23.4215,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/AS12-46-6813/AS12-46-6813~orig.jpg",
+      "image_credit": "NASA / Pete Conrad (AS12-46-6813)",
+      "summary": "Transmitted science data from the Ocean of Storms back to Earth for 8 continuous years until NASA powered down the receiver stations in 1977 due to budget constraints.",
+      "kid_summary": "A space science lab powered by a heat battery! It listened for moonquakes and discovered that the Moon vibrates like a giant church bell when hit by meteorites.",
+      "fun_fact": "The seismometer recorded moonquakes triggered whenever the Apollo lunar module ascent stages or Saturn V rocket stages were crashed into the Moon on purpose!"
+    },
+    {
+      "id": "obj-viking1-lander",
+      "name": "Viking 1 Lander ('Thomas Mutch Memorial Station')",
+      "slug": "viking-1-lander",
+      "celestial_body": "Mars",
+      "category": "Robotic Lander",
+      "mission_id": "viking-1",
+      "year_left": 1976,
+      "original_purpose": "First long-duration surface science and biological search laboratory on Mars.",
+      "reason_left": "Stationary lander resting in Chryse Planitia; mission ended in 1982 when an uplink command accidentally overwrote antenna tracking software.",
+      "significance": "First spacecraft to successfully operate on the surface of Mars, transmitting 4,500 photos and weather logs for over 6 Earth years.",
+      "current_status": "Mission ended",
+      "latitude": 22.697,
+      "longitude": -48.222,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA00007/PIA00007~orig.jpg",
+      "image_credit": "NASA/JPL (PIA00007)",
+      "summary": "Resting on the golden-red desert plains of Chryse Planitia, Viking 1 captured the first photograph ever taken from the Martian surface on July 20, 1976.",
+      "kid_summary": "The brave robotic pioneer of Mars! It sent us our very first clear pictures of red Martian rocks, pink skies, and gentle Martian breezes.",
+      "fun_fact": "It stayed active so long that in 1982, NASA renamed it the 'Thomas A. Mutch Memorial Station' in honor of the Viking imaging team leader."
+    },
+    {
+      "id": "obj-viking2-lander",
+      "name": "Viking 2 Lander ('Gerald Soffen Memorial Station')",
+      "slug": "viking-2-lander",
+      "celestial_body": "Mars",
+      "category": "Robotic Lander",
+      "mission_id": "viking-2",
+      "year_left": 1976,
+      "original_purpose": "Robotic lander investigating the boulder-strewn volcanic plains of Utopia Planitia.",
+      "reason_left": "Batteries failed in April 1980 after 1,281 Martian sols of science.",
+      "significance": "Detected thin water frost coating Martian rocks in winter, giving humanity its first glimpse of snow and frost on Mars.",
+      "current_status": "Mission ended",
+      "latitude": 48.269,
+      "longitude": 225.99,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA00568/PIA00568~orig.jpg",
+      "image_credit": "NASA/JPL (PIA00568)",
+      "summary": "Tilted at 8.2 degrees on a rock in Utopia Planitia, Viking 2 recorded weather, trench tests, and seismic data.",
+      "kid_summary": "A robot that woke up to a frosted winter wonderland on Mars! It spotted paper-thin layers of white water frost covering the red ground.",
+      "fun_fact": "Viking 2's seismometer detected the only confirmed 'marsquake' recorded until the InSight mission landed 42 years later!"
+    },
+    {
+      "id": "obj-pathfinder-sojourner",
+      "name": "Mars Pathfinder & Sojourner Rover",
+      "slug": "mars-pathfinder-sojourner",
+      "celestial_body": "Mars",
+      "category": "Lander & Rover",
+      "mission_id": "mars-pathfinder",
+      "year_left": 1997,
+      "original_purpose": "Pioneered cocoon airbag landing and deployed Sojourner, a solar-powered microrover the size of a microwave oven.",
+      "reason_left": "Stationary base station battery depletion caused communication loss on sol 83 (September 27, 1997).",
+      "significance": "Proved robotic rovers could drive and explore other worlds. Its website generated the biggest internet traffic spike in history at that time.",
+      "current_status": "Mission ended",
+      "latitude": 19.33,
+      "longitude": -33.55,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA01120/PIA01120~orig.jpg",
+      "image_credit": "NASA/JPL (PIA01120)",
+      "summary": "Located in an ancient outflow flood plain called Ares Vallis. The lander (Carl Sagan Memorial Station) and the 11.5 kg Sojourner rover opened the modern era of Mars roving.",
+      "kid_summary": "A tiny skateboard-sized rover called Sojourner that bounced down onto Mars in giant balloons! It drove over to rocks named 'Barnacle Bill' and 'Yogi Bear' to sniff their chemicals.",
+      "fun_fact": "Sojourner was named in honor of civil rights pioneer Sojourner Truth after a 12-year-old girl from Connecticut won a worldwide student essay contest!"
+    },
+    {
+      "id": "obj-spirit-rover",
+      "name": "Spirit Rover (MER-A)",
+      "slug": "spirit-rover",
+      "celestial_body": "Mars",
+      "category": "Rover / Vehicle",
+      "mission_id": "mer-a-spirit",
+      "year_left": 2004,
+      "original_purpose": "Search Gusev Crater for signs of past lake waters and geothermal activity.",
+      "reason_left": "In 2009, its wheels broke through a crust of soil into hidden soft sulfate sand at 'Troy'. With winter arriving and dust covering its solar panels, it could not survive the cold.",
+      "significance": "A broken right-front wheel dragged across the soil, accidentally scraping away the surface dust to reveal 90% pure silica—the signature of hot springs and habitable steam vents.",
+      "current_status": "Mission ended",
+      "latitude": -14.5684,
+      "longitude": 175.47263,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA05208/PIA05208~orig.jpg",
+      "image_credit": "NASA/JPL/Cornell (PIA05208)",
+      "summary": "Resting at 'Troy' in the Columbia Hills of Gusev Crater. Spirit drove backwards for years dragging its jammed wheel, turning an engineering handicap into one of Mars science's greatest discoveries.",
+      "kid_summary": "The robot that never gave up! When one of its six wheels broke, engineers drove it backwards. The dragging wheel accidentally scratched the dirt and found ancient hot spring minerals!",
+      "fun_fact": "Dust devils frequently swirled across Gusev Crater and swept Spirit's solar panels clean, repeatedly reviving the rover when its power was dangerously low!"
+    },
+    {
+      "id": "obj-opportunity-rover",
+      "name": "Opportunity Rover (MER-B)",
+      "slug": "opportunity-rover",
+      "celestial_body": "Mars",
+      "category": "Rover / Vehicle",
+      "mission_id": "mer-b-opportunity",
+      "year_left": 2004,
+      "original_purpose": "Explore Meridiani Planum, analyze gray hematite sphere formations ('blueberries'), and seek water histories.",
+      "reason_left": "A catastrophic planet-encircling dust storm blotted out the sun in June 2018, depleting solar power after 14.5 years of continuous discovery.",
+      "significance": "Holds the off-world driving record: 45.16 kilometers (28.06 miles). Proved liquid water once flowed across Mars for sustained geological epochs.",
+      "current_status": "Mission ended",
+      "latitude": -1.9462,
+      "longitude": 354.4734,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA10216/PIA10216~orig.jpg",
+      "image_credit": "NASA/JPL-Caltech/Cornell (PIA10216)",
+      "summary": "Resting at Perseverance Valley on the rim of Endeavour Crater. Opportunity scored an interplanetary 'hole-in-one' on landing day by bouncing into Eagle Crater.",
+      "kid_summary": "The marathon champion of space! Built to drive for just 90 days, Opportunity kept exploring for over 14 years, climbing in and out of giant meteorite craters.",
+      "fun_fact": "Opportunity found tiny round mineral balls all over Mars nicknamed 'blueberries' that only form when water soaks through rock!"
+    },
+    {
+      "id": "obj-phoenix-lander",
+      "name": "Phoenix Mars Lander",
+      "slug": "phoenix-lander",
+      "celestial_body": "Mars",
+      "category": "Robotic Lander",
+      "mission_id": "phoenix",
+      "year_left": 2008,
+      "original_purpose": "Touch down in the high northern arctic plains to dig into subsurface permafrost.",
+      "reason_left": "Winter darkness and heavy carbon dioxide ice buildup encased the lander at the end of 2008, breaking its solar panels under frozen dry ice.",
+      "significance": "First mission to touch and taste Martian water ice, confirming that pure water exists just inches below the Martian dust.",
+      "current_status": "Mission ended",
+      "latitude": 68.2188,
+      "longitude": 234.2508,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA10972/PIA10972~orig.jpg",
+      "image_credit": "NASA/JPL-Caltech/University of Arizona (PIA10972)",
+      "summary": "Resting in the arctic Green Valley of Vastitas Borealis. Its robotic arm dug shallow trenches, revealing bright white dice-sized chunks of water ice that sublimated into vapor over four days.",
+      "kid_summary": "The polar ice digger! Phoenix traveled to Mars' North Pole, scraped away the dirt with a robotic scoop, and found real water ice hiding underneath!",
+      "fun_fact": "When Phoenix blew away surface dust with its thrusters, it revealed a shiny slab of pure ice right underneath its belly!"
+    },
+    {
+      "id": "obj-insight-lander",
+      "name": "InSight Lander",
+      "slug": "insight-lander",
+      "celestial_body": "Mars",
+      "category": "Geophysical Station",
+      "mission_id": "insight",
+      "year_left": 2018,
+      "original_purpose": "Place a ultra-sensitive seismometer directly onto Martian soil and record the planet's heartbeat.",
+      "reason_left": "Years of Martian dust settled on its solar arrays, gradually choking off electrical power until its final transmission on December 15, 2022.",
+      "significance": "Detected over 1,300 marsquakes, calculated the size of Mars' molten core (roughly 1,800 km radius), and recorded meteoroid impacts rattling the planet in real time.",
+      "current_status": "Mission ended",
+      "latitude": 4.5024,
+      "longitude": 135.6234,
+      "coords_confidence": "CONFIRMED",
+      "image_url": "https://images-assets.nasa.gov/image/PIA23157/PIA23157~orig.jpg",
+      "image_credit": "NASA/JPL-Caltech (PIA23157)",
+      "summary": "Stationed at Elysium Planitia, InSight listened to the interior rumble of Mars for over four Earth years with its French-built SEIS seismometer dome.",
+      "kid_summary": "The doctor of Mars! InSight put a stethoscope directly onto the ground to listen to marsquakes rumbling deep beneath the planet's surface.",
+      "fun_fact": "InSight recorded sound waves from a space rock slamming into Mars that created a crater 150 meters wide with ice boulders tossed into the air!"
+    },
+    {
+      "id": "obj-luna-9",
+      "name": "Luna 9 Capsule",
+      "slug": "luna-9",
+      "celestial_body": "Moon",
+      "category": "Robotic Lander",
+      "mission_id": "luna-9",
+      "year_left": 1966,
+      "original_purpose": "First spacecraft to survive a landing on the Moon without crashing, proving lunar dust could support a spacecraft.",
+      "reason_left": "Batteries exhausted after 3 days of historic television transmissions.",
+      "significance": "Settled the terrifying scientific debate over whether the Moon was covered in a deep sea of quicksand dust that would swallow spaceships.",
+      "current_status": "Mission ended",
+      "latitude": 7.08,
+      "longitude": -64.37,
+      "coords_confidence": "ESTIMATED",
+      "image_url": "https://nssdc.gsfc.nasa.gov/planetary/image/luna_9_model.jpg",
+      "image_credit": "NASA / NSSDCA Archive",
+      "summary": "Resting in Oceanus Procellarum. While tracking telemetry confirmed landing in 1966, exact sub-meter orbital coordinates have not been independently confirmed by high-res LROC pinpoint imagery.",
+      "kid_summary": "The first robot to land softly on the Moon without smashing! It opened up like four flower petals and snapped the very first photos of Moon dirt.",
+      "fun_fact": "Before Luna 9, some scientists were scared the Moon was covered in loose dust miles deep that would swallow astronauts whole!"
+    }
+  ],
+  "stories": [
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "intro",
+      "title": "The Golden Base at Tranquility",
+      "body": "I am the lower foundation of Lunar Module Eagle. For half a century, I have stood silent on the plains of Mare Tranquillitatis.",
+      "kid_body": "Hi there! I am the bottom half of the Eagle spaceship. I have been chilling out on the Moon since 1969!"
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "before",
+      "title": "Forged on Long Island",
+      "body": "Engineers at Grumman Aerospace built me out of sheets of aluminum, titanium, and mylar foils as thin as potato chip bags to save every gram.",
+      "kid_body": "Rocket scientists built me very carefully. My golden skin was as thin as foil wrap to keep me super light!"
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "journey",
+      "title": "The Descent Throttle",
+      "body": "On July 20, 1969, Neil Armstrong fired my descent engine. We skimmed over boulders with barely 40 seconds of fuel remaining before my probe wires touched ground.",
+      "kid_body": "We zoomed down from space! Neil Armstrong steered us past scary boulder fields until our landing feet went tap-tap on the moon dust."
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "purpose",
+      "title": "Humanity's Front Porch",
+      "body": "My ladder became the runway for human boots on another world. For 21 hours, I kept Neil and Buzz alive, powered their instruments, and held their ladder.",
+      "kid_body": "My ladder let Neil and Buzz climb down for their first giant leap! I held their space tools and kept them safe."
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "final_moment",
+      "title": "The Parting Blast",
+      "body": "When it was time to leave, explosive guillotines severed our umbilical cables. The ascent stage fired upward, leaving me as the permanent monument.",
+      "kid_body": "When they went home, the top spaceship zoomed up to orbit, and I stayed behind to keep watch over Tranquility Base forever."
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "after",
+      "title": "Enduring the Vacuum",
+      "body": "Fifty years of scorching days (+120°C) and freezing lunar nights (-130°C) have weathered my foils, yet my landing legs stand firm in the silent dust.",
+      "kid_body": "There is no wind or rain here! Daytimes are boiling hot and nights are freezing cold, but I still stand proud."
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "stage": "legacy",
+      "title": "A Peace Memorial for Earth",
+      "body": "On my strut hangs the plaque: 'We came in peace for all mankind.' I am proof that when humans dream together, they can touch the stars.",
+      "kid_body": "I carry a golden message that humans came in peace. Whenever you look up at the Moon, remember me down here!"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "intro",
+      "title": "The Mirror Box",
+      "body": "I am the Apollo 11 Laser Ranging Retroreflector. I am the only Apollo experiment still working today, 55 years after the astronauts left.",
+      "kid_body": "Hello Earthlings! I am a suitcase of special corner mirrors. I'm still doing science every single week!"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "before",
+      "title": "Designed by Physicists",
+      "body": "Physicists knew electronics would fail in the lunar freeze. They built me using 100 prisms of pure silica quartz that need zero electricity.",
+      "kid_body": "Smart scientists gave me 100 quartz mirrors that don't need any batteries or wires to work!"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "journey",
+      "title": "Carried by Buzz Aldrin",
+      "body": "Buzz Aldrin lifted me out of the equipment bay and walked me 15 meters away from the lunar module so liftoff rocket exhaust wouldn't dust my mirrors.",
+      "kid_body": "Buzz Aldrin carried me in his hands across the moon dust and set me down pointing straight at Earth."
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "purpose",
+      "title": "Catching Lasers from Earth",
+      "body": "Whenever an observatory in Texas, France, or Hawaii shoots a green laser pulse at the Moon, my corner cubes bounce the photons right back into their telescope.",
+      "kid_body": "When people on Earth shoot green laser beams into the night sky, I catch the light and bounce it right back into their eyes!"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "final_moment",
+      "title": "The Crew Flew Home",
+      "body": "Armstrong and Aldrin waved goodbye. As they soared back toward Earth, my mirrors received their very first test pulses from the Lick Observatory.",
+      "kid_body": "As the astronauts flew away, laser flashes from Earth were already bouncing off my mirrors to welcome me."
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "after",
+      "title": "Measuring the Lunar Orbit",
+      "body": "By timing laser round-trips to the picosecond, I proved that the Moon is drifting away from Earth at 3.8 centimeters every single year.",
+      "kid_body": "I helped measure that the Moon slowly crawls 3.8 centimeters farther from Earth every single year!"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "stage": "legacy",
+      "title": "Timeless Precision",
+      "body": "Future Artemis astronauts will see me glinting in the lunar sunrise. I am living proof of the elegance of passive physics.",
+      "kid_body": "I prove that simple, clever ideas can outlast the biggest machines in space. Shine on!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "intro",
+      "title": "The Pioneer of Moon Drives",
+      "body": "I am Lunar Roving Vehicle Number 1. I am the original Moon Buggy, parked peacefully beside the deep canyon of Hadley Rille.",
+      "kid_body": "Beep beep! I am the first car ever driven on another world! Call me Moon Buggy!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "before",
+      "title": "Folded into a Triangle",
+      "body": "Boeing and General Motors built me. To fit into the lunar module bay, my chassis was designed to fold like an origami puzzle.",
+      "kid_body": "Engineers folded me up like a folding chair to cram me into the spaceship rocket!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "journey",
+      "title": "Unfolding on Hadley Plain",
+      "body": "Dave Scott pulled two release cords, and spring-loaded hinges snapped my four wheels and seats into place like magic.",
+      "kid_body": "When we landed, the astronauts pulled a cord and POP! I unfolded right onto my four wire tires!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "purpose",
+      "title": "Climbing Mountain Slopes",
+      "body": "I had a top speed of 12 km/h and four independent electric hub motors. I carried Dave and Jim 27.9 kilometers across crater rims and mountain bases.",
+      "kid_body": "I drove up steep hills, carried heavy moon rocks, and had lawn-chair seats with seatbelts!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "final_moment",
+      "title": "The Camera at Liftoff",
+      "body": "Dave parked me 100 meters away and aimed my color TV camera toward Falcon. Mission controllers in Houston panned my camera to broadcast their ascent to Earth.",
+      "kid_body": "Before they left, Dave parked me so my TV camera could record them zooming off into the stars!"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "after",
+      "title": "Silent Sentinel",
+      "body": "My batteries are drained, but my aluminum chassis and wire wheels remain uncorroded in the airless lunar quiet.",
+      "kid_body": "My battery is empty, but my tires and seats are waiting right where they were parked in 1971."
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "stage": "legacy",
+      "title": "The Wheelprints Remain",
+      "body": "My tire tracks crisscross Hadley Plain. One day, space explorers will walk past my seat and marvel at how far two lawn chairs on wheels took humanity.",
+      "kid_body": "My tire tracks will stay in the dust for millions of years. I showed everyone how to drive on the Moon!"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "intro",
+      "title": "The Rover Who Wouldn't Quit",
+      "body": "I am Opportunity, but my friends called me 'Oppy'. I touched down inside a small crater on Mars in 2004 for a 90-day mission that lasted 14 and a half years.",
+      "kid_body": "Beep boop! My name is Oppy! I was supposed to explore Mars for 90 days, but I explored for almost 15 whole years!"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "before",
+      "title": "Twin Sister of Spirit",
+      "body": "Born in Pasadena at the Jet Propulsion Laboratory, my sister Spirit and I were solar-powered robotic geologists on six aluminum wheels.",
+      "kid_body": "My sister Spirit and I were built at NASA's robot lab. We had cameras for eyes and rock drills for hands!"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "journey",
+      "title": "Bouncing into an Interplanetary Hole-in-One",
+      "body": "Cocooned in 24 giant airbags, I bounced across Meridiani Planum and rolled straight into Eagle Crater. I scored a hole-in-one on Mars!",
+      "kid_body": "I hit Mars wrapped in giant bouncy airbags and bounced 20 times before rolling into a crater! Score!"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "purpose",
+      "title": "Tasting the Ancient Water",
+      "body": "My microscopic imager found round mineral 'blueberries' made of hematite, proving that warm, acidic water once covered the plains of Mars.",
+      "kid_body": "I discovered tiny round rocks called blueberries that prove Mars used to have real splashing water!"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "final_moment",
+      "title": "The Dark Sky",
+      "body": "In June 2018, a monstrous planet-wide dust storm blotted out the sun over Perseverance Valley. My solar arrays went dark. My last message: 'My battery is low and it's getting dark.'",
+      "kid_body": "A huge dust storm covered the sky in 2018. My solar panels couldn't catch any sunlight, and I fell into a peaceful space nap."
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "after",
+      "title": "Resting on the Valley Rim",
+      "body": "NASA sent over a thousand wake-up songs over the radio, including 'I'll Be Seeing You' by Billie Holiday. I remain resting on Endeavour Crater rim.",
+      "kid_body": "NASA engineers played sweet songs over the radio to wake me up. I am resting quietly on the red hillside."
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "stage": "legacy",
+      "title": "The Marathon Record",
+      "body": "I drove 45.16 kilometers—farther than an Olympic marathon on Earth. I taught humanity that Mars was once a living, watery world.",
+      "kid_body": "I drove farther than a whole marathon race on Earth! I will always be the little rover that could."
+    }
+  ],
+  "sources": [
+    {
+      "object_id": "obj-apollo11-lm",
+      "source_name": "NASA NSSDCA Master Catalog: Apollo 11 LM Descent Stage",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "source_type": "Primary Mission Registry"
+    },
+    {
+      "object_id": "obj-apollo11-lm",
+      "source_name": "LROC Lunar Reconnaissance Orbiter Camera: Apollo 11 Landing Site",
+      "source_url": "https://www.lroc.asu.edu/featured_sites/lroc_features/Apollo%2011/feature_highlights",
+      "source_type": "Orbital Imagery Archive"
+    },
+    {
+      "object_id": "obj-apollo11-lrrr",
+      "source_name": "McDonald Laser Ranging Station / NASA GSFC",
+      "source_url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_general.html",
+      "source_type": "Laser Science Network"
+    },
+    {
+      "object_id": "obj-apollo14-lrrr",
+      "source_name": "NASA International Laser Ranging Service: Apollo 14",
+      "source_url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap14_general.html",
+      "source_type": "Laser Science Network"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "source_name": "NASA Lunar Roving Vehicle Operations Handbook",
+      "source_url": "https://www.nasa.gov/history/alsj/lrvhandbook.pdf",
+      "source_type": "Technical Documentation"
+    },
+    {
+      "object_id": "obj-apollo15-lrv",
+      "source_name": "LROC Featured Site: Hadley-Apennine Apollo 15",
+      "source_url": "https://www.lroc.asu.edu/featured_sites/lroc_features/Apollo%2015/feature_highlights",
+      "source_type": "Orbital Imagery Archive"
+    },
+    {
+      "object_id": "obj-apollo15-lrrr",
+      "source_name": "NASA ILRS: Apollo 15 Retroreflector",
+      "source_url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap15_general.html",
+      "source_type": "Laser Science Network"
+    },
+    {
+      "object_id": "obj-apollo16-lrv",
+      "source_name": "NASA Apollo 16 Preliminary Science Report",
+      "source_url": "https://www.nasa.gov/history/alsj/a16/as16psr.pdf",
+      "source_type": "Mission Science Report"
+    },
+    {
+      "object_id": "obj-apollo17-lrv",
+      "source_name": "NASA Apollo Lunar Surface Journal: Taurus-Littrow",
+      "source_url": "https://www.nasa.gov/history/alsj/a17/a17.html",
+      "source_type": "Historical Mission Transcript"
+    },
+    {
+      "object_id": "obj-surveyor-3",
+      "source_name": "NASA NSSDCA: Surveyor 3",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+      "source_type": "Spacecraft Registry"
+    },
+    {
+      "object_id": "obj-apollo12-alsep",
+      "source_name": "NASA SP-214: Apollo 12 Mission Report",
+      "source_url": "https://www.nasa.gov/history/alsj/a12/a12mr.pdf",
+      "source_type": "Official Report"
+    },
+    {
+      "object_id": "obj-viking1-lander",
+      "source_name": "NASA Mars Exploration: Viking 1",
+      "source_url": "https://mars.nasa.gov/missions/viking-1/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-viking2-lander",
+      "source_name": "NASA Mars Exploration: Viking 2",
+      "source_url": "https://mars.nasa.gov/missions/viking-2/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-pathfinder-sojourner",
+      "source_name": "NASA Mars Pathfinder Science Results",
+      "source_url": "https://mars.nasa.gov/missions/pathfinder/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-spirit-rover",
+      "source_name": "NASA JPL MER Spirit Archive",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-opportunity-rover",
+      "source_name": "NASA JPL MER Opportunity Archive",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-phoenix-lander",
+      "source_name": "NASA Phoenix Mars Mission",
+      "source_url": "https://mars.nasa.gov/missions/phoenix/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-insight-lander",
+      "source_name": "NASA JPL InSight Mars Mission",
+      "source_url": "https://mars.nasa.gov/insight/",
+      "source_type": "Mission Archive"
+    },
+    {
+      "object_id": "obj-luna-9",
+      "source_name": "NASA NSSDCA Master Catalog: Luna 9",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-006A",
+      "source_type": "Historical Archive"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "question": "Which piece of Apollo equipment on the Moon is still actively used by terrestrial scientists today?",
+      "kid_question": "Which tool left on the Moon still works and sends laser flashes back to Earth today?",
+      "options": "[\"The Lunar Roving Vehicle\", \"The Lunar Laser Ranging Retroreflector\", \"The Apollo 11 descent engine\", \"The TV antenna\"]",
+      "correct_index": 1,
+      "explanation": "The Apollo retroreflectors have zero electronics or batteries; their 100 quartz corner-cubes reflect Earth lasers passively to this day.",
+      "kid_explanation": "The special mirror box! It has no batteries and bounces laser beams right back to Earth without breaking down.",
+      "difficulty": "easy",
+      "object_id": "obj-apollo11-lrrr",
+      "source_url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_general.html"
+    },
+    {
+      "question": "What is the primary reason the Apollo Lunar Module Descent Stages were left behind on the Moon?",
+      "kid_question": "Why did the astronauts leave the bottom half of their lunar lander on the Moon?",
+      "options": "[\"They forgot to bring the keys\", \"The ascent stage needed to shed mass to reach lunar orbit\", \"NASA wanted to build a Moon hotel\", \"It was glued to the lunar rocks\"]",
+      "correct_index": 1,
+      "explanation": "Fuel limits required the lunar module to shed the heavy descent stage and landing gear to achieve lunar orbital velocity.",
+      "kid_explanation": "It was way too heavy! The astronauts had to leave the heavy legs behind so their small rocket could zoom back into space.",
+      "difficulty": "easy",
+      "object_id": "obj-apollo11-lm",
+      "source_url": "https://www.nasa.gov/mission_pages/apollo/apollo-11.html"
+    },
+    {
+      "question": "What did the Apollo 15 Lunar Roving Vehicle tires consist of to survive sharp moon rocks?",
+      "kid_question": "What were the tires of the Moon Buggy made out of so they wouldn't pop?",
+      "options": "[\"Inflatable rubber like a bicycle\", \"Solid oak wood\", \"Woven zinc-coated steel piano wire\", \"Hardened asteroid glass\"]",
+      "correct_index": 2,
+      "explanation": "Rubber tires would degrade and pop in the lunar thermal vacuum; LRV tires were woven from flexible zinc-coated piano wire with titanium treads.",
+      "kid_explanation": "Special woven piano wires! They could never get a flat tire even on the sharpest moon rocks.",
+      "difficulty": "medium",
+      "object_id": "obj-apollo15-lrv",
+      "source_url": "https://www.nasa.gov/history/alsj/lrvhandbook.pdf"
+    },
+    {
+      "question": "How did the Spirit rover accidentally discover evidence of ancient Martian hot springs?",
+      "kid_question": "How did the Spirit rover find ancient mineral treasures in the Mars dirt?",
+      "options": "[\"A broken wheel dragged in the dirt, revealing white silica\", \"It used dynamite\", \"A meteorite cracked open the rock\", \"An alien pointed to it\"]",
+      "correct_index": 0,
+      "explanation": "Spirit's jammed right-front wheel dragged across the soil, churning up a trench of 90% pure silica, proof of ancient hydrothermal vents.",
+      "kid_explanation": "One of its wheels got stuck! When the rover dragged its stuck wheel, it scratched the dirt and found bright white minerals.",
+      "difficulty": "medium",
+      "object_id": "obj-spirit-rover",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/"
+    },
+    {
+      "question": "Which rover holds the off-world driving record with 45.16 km (28 miles) traversed on Mars?",
+      "kid_question": "Which robotic rover drove the farthest distance ever on another planet?",
+      "options": "[\"Sojourner\", \"Spirit\", \"Opportunity\", \"Curiosity\"]",
+      "correct_index": 2,
+      "explanation": "Opportunity operated for 14.5 years and drove 45.16 km, surpassing a full marathon on another world.",
+      "kid_explanation": "Opportunity (Oppy)! She drove further than a whole marathon race on Mars.",
+      "difficulty": "easy",
+      "object_id": "obj-opportunity-rover",
+      "source_url": "https://mars.nasa.gov/mer/mission/overview/"
+    },
+    {
+      "question": "What historic robotic probe was inspected in 1969 by Apollo 12 astronauts?",
+      "kid_question": "Which robotic probe did Apollo 12 astronauts walk up to and examine on the Moon?",
+      "options": "[\"Surveyor 3\", \"Viking 1\", \"Luna 2\", \"Mariner 4\"]",
+      "correct_index": 0,
+      "explanation": "Apollo 12 performed a precision landing 180 meters from Surveyor 3; astronauts removed its camera and brought it back to Earth.",
+      "kid_explanation": "Surveyor 3! The astronauts landed right next to it, snapped photos, and brought its camera home.",
+      "difficulty": "medium",
+      "object_id": "obj-surveyor-3",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+    },
+    {
+      "question": "What vital substance did the Phoenix lander discover beneath the soil in Mars' arctic plains?",
+      "kid_question": "What cool treasure did the Phoenix lander dig up with its robotic arm on Mars?",
+      "options": "[\"Liquid mercury\", \"Water ice\", \"Fossilized seashells\", \"Gold coins\"]",
+      "correct_index": 1,
+      "explanation": "Phoenix scraped away surface dust to expose bright chunks of water ice that sublimated in the Martian atmosphere over four days.",
+      "kid_explanation": "Pure water ice! It proved there is real ice hiding right under the red Martian dust.",
+      "difficulty": "easy",
+      "object_id": "obj-phoenix-lander",
+      "source_url": "https://mars.nasa.gov/missions/phoenix/"
+    },
+    {
+      "question": "What instrument did InSight place on Mars that detected over 1,300 marsquakes?",
+      "kid_question": "What did InSight put on the ground to listen to the planet's rumbling heartbeat?",
+      "options": "[\"A seismometer under a wind shield\", \"A giant microphone\", \"A telescope pointed at the ground\", \"A magnetic compass\"]",
+      "correct_index": 0,
+      "explanation": "InSight placed the SEIS seismometer directly onto Martian soil and covered it with a thermal and wind dome to sense tiny vibrations.",
+      "kid_explanation": "A super sensitive seismometer dome! It listened to vibrations deep inside Mars.",
+      "difficulty": "medium",
+      "object_id": "obj-insight-lander",
+      "source_url": "https://mars.nasa.gov/insight/"
+    },
+    {
+      "question": "Why did Apollo 17 park its Lunar Roving Vehicle 100 meters away from the Challenger lander before liftoff?",
+      "kid_question": "Why did the last Apollo astronauts park their car away from their rocket ship?",
+      "options": "[\"To avoid paying parking tickets\", \"So its remote TV camera could film the astronauts taking off\", \"Because the battery was on fire\", \"To use it as a radio tower\"]",
+      "correct_index": 1,
+      "explanation": "Astronaut Gene Cernan parked LRV-3 at the VIP site so mission control in Houston could remotely operate the camera to film Challenger's ascent stage liftoff.",
+      "kid_explanation": "So the rover's TV camera could record them blasting off back to Earth on live television!",
+      "difficulty": "hard",
+      "object_id": "obj-apollo17-lrv",
+      "source_url": "https://www.nasa.gov/history/alsj/a17/a17.html"
+    },
+    {
+      "question": "What is the science of studying human artifacts and hardware left in outer space called?",
+      "kid_question": "What do we call the study of historic artifacts and robots left in space?",
+      "options": "[\"Space Archaeology\", \"Cosmic Astrobiology\", \"Exoplanet Mining\", \"Orbital Oceanography\"]",
+      "correct_index": 0,
+      "explanation": "Space Archaeology applies archaeological methods to material culture in space, preserving humanity's technological heritage.",
+      "kid_explanation": "Space Archaeology! It's like being Indiana Jones, but for spaceships and moon landers!",
+      "difficulty": "easy",
+      "object_id": null,
+      "source_url": "https://www.nasa.gov"
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge-first-step",
+      "name": "First Footprint",
+      "description": "Explored your very first space artifact story in the digital museum.",
+      "icon": "Footprints",
+      "unlock_rule": "view_object"
+    },
+    {
+      "id": "badge-moon-explorer",
+      "name": "Lunar Cartographer",
+      "description": "Visited all verified landing sites on the Moon map.",
+      "icon": "Moon",
+      "unlock_rule": "visit_moon_map"
+    },
+    {
+      "id": "badge-mars-pathfinder",
+      "name": "Red Planet Pioneer",
+      "description": "Explored robotic rovers and landers across the Martian desert.",
+      "icon": "Compass",
+      "unlock_rule": "visit_mars_map"
+    },
+    {
+      "id": "badge-quiz-cadet",
+      "name": "Space Cadet",
+      "description": "Completed the Discovery Quiz with a score of 70% or higher.",
+      "icon": "Award",
+      "unlock_rule": "quiz_passed"
+    },
+    {
+      "id": "badge-archaeologist",
+      "name": "Master Space Archaeologist",
+      "description": "Investigated the Archaeology Lab lessons and comparison tool.",
+      "icon": "Sparkles",
+      "unlock_rule": "visit_lab"
+    },
+    {
+      "id": "badge-archive-keeper",
+      "name": "Archive Guardian",
+      "description": "Unlocked all data sources, confidence badges, and factual archives.",
+      "icon": "ShieldCheck",
+      "unlock_rule": "visit_sources"
+    }
+  ]
+}
