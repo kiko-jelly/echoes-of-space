@@ -193,4 +193,4 @@ vite build: 2572 modules transformed -> 0 errors -> built in 3.10s
 ---
 
 ## ⚖️ Legal & Attribution Disclaimer
-*Independent educational project developed for the NASA Space Apps Challenge. Not affiliated with or endorsed by NASA. No official NASA insignia or logo is utilized. All media used belongs to the public domain with appropriate credit.*
+*Independent educational project developed for the NASA Space Apps Challenge. Not affiliated with or endorsed by NASA. No official NASA insignia or logo is utilized. All media used belongs to the public domain with appropriate credits.*
